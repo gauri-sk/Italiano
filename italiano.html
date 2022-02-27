@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Italianno&family=Supermercado+One&family=Zen+Kurenaido&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Italiano - 'Best Italian Food'</title>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo2.png" alt="">
+            <span id="name" class="headings">Italiano</span>
+        </div>
+        <div>
+            <ul class="menu">
+                <li id="item1"><a href="#home">Home</a></li>
+                <li id="item2"><a href="#service">Services</a></li>
+                <li id="item3"><a href="#location">Locations</a></li>
+                <li id="item4"><a href="#contactus">Contact</a></li>
+            </ul>
+        </div>
+        <div id="tablebtn" >
+            <button class="btn">Book a table</button>
+        </div>
+
+    </div>
+    <section class="home" id="home">
+        <h2 class="headings">Welcome to Italiano</h2>
+        <p id="para1">Food | Drinks | Excellence</p>
+        <p id="para2">We are one of the finest chain of restraurants in the country. As the name suggests, our speciality is authentic Italian food. Italiano represents our desire for you to see and experience the rich flavours of Italian culture. </p>
+    </section>
+    <section class="services">
+      <h2 class="headings" id="service">Services</h2>
+      <div class="layout">
+         <div class="box" id="box1">
+             <h3 class="headings">Food</h3>
+             <button class="btn" id="btn2">Order now</button>
+         </div>
+         <div class="box" id="box2">
+            <h3 class="headings">Drinks</h3>
+            <button class="btn" id="btn3">Order now</button>
+         </div>
+         <div class="box" id="box3">
+            <h3 class="headings">Our chefs</h3>
+            <button class="btn" id="btn4">Chat with us</button>
+         </div>
+      </div>  
+    </section>
+    <section class="locations" id="location">
+      <h2 class="headings" id="loc">Our Locations</h2>
+      <div class="layout1">
+         <div class="locbg" id="city1">
+             <h3>Mumbai</h3>
+         </div>
+         <div class="locbg" id="city2">
+             <h3>Delhi</h3>
+         </div>
+         <div class="locbg" id="city3">
+             <h3>Pune</h3>
+         </div>
+         <div class="locbg" id="city4">
+             <h3>Banglore</h3>
+         </div>
+         <div class="locbg" id="city5">
+             <h3>Hyderabad</h3>
+         </div>
+         <div class="locbg" id="city6">
+             <h3>Chennai</h3>
+         </div>
+         <div class="locbg" id="city7">
+             <h3>Indore</h3>
+         </div>
+         <div class="locbg" id="city8">
+             <h3>Gurugram</h3>
+         </div>
+      </div>  
+    </section>
+
+    <section class="contact">
+        <h2 class="headings" id="contactus">Contact Us</h2>
+        <form action="noaction.php">
+            <input type="text" placeholder="Name" class="inpt">
+            <input type="email" placeholder="E-mail address" class="inpt">
+            <input type="text" placeholder="Your Query" class="inpt">
+            <button class="btn">Submit</button>
+
+        </form>
+    </section>
+
+    <footer class="foot">
+        Copyrights &copy; All rights reserved.
+    </footer>
+    <script>
+        box1.addEventListener('mouseover', function show(){
+            btn2.style.display='block' ;
+            btn2.style.margin='auto';
+        })
+        box1.addEventListener('mouseout', function show(){
+            btn2.style.display='none' ;
+        })
+        box2.addEventListener('mouseover', function show(){
+            btn3.style.display='block' ;
+            btn3.style.margin='auto';
+        })
+        box2.addEventListener('mouseout', function show(){
+            btn3.style.display='none' ;
+        })
+        box3.addEventListener('mouseover', function show(){
+            btn4.style.display='block' ;
+            btn4.style.margin='auto';
+        })
+        box3.addEventListener('mouseout', function show(){
+            btn4.style.display='none' ;
+        })
+    </script>
+</body>
+
+</html>
